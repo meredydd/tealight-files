@@ -10,6 +10,6 @@ colors = ["red", "blue", "green"]
 
 for i in range(10,200,5):
   move(i)
-  turn(30)
+  turn(25)
   c = colors[(i / 5)%3]
   color(c)
